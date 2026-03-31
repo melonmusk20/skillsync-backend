@@ -17,7 +17,8 @@ public class CorsConfig {
         config.setAllowCredentials(true);
       config.setAllowedOrigins(List.of(
                              "http://localhost:5173",
-                        "https://skillsync-app-coral.vercel.app/"
+                        "https://skillsync-app-coral.vercel.app",
+                    "https://skillsync-j5zswvbuj-melonmusk20s-projects.vercel.app"
 ));;
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
